@@ -1,12 +1,14 @@
-
-.my_description{
-    text-align: center;
-}   
-*{
+ *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    justify-content: center;
+    text-align: center;
+    font-family:sans-serif;
+    color: white;
+    background-color: rgb(21, 21, 26);
 }
+ 
 body{
     border: 1px solid black;
 }
@@ -15,7 +17,26 @@ section{
     display: flex;
     justify-content: center;
     text-align: center;
+    border: 1PX solid BLACK;
 }
-nav{
-    float:
+.nav{
+    align-self: center;
+    justify-content: center;
+}
+p{
+    padding-top: 10px;
+}
+
+div{
+    display: block;
+    width: 40%;
+    justify-content: space-between;
+}
+section > .my_description{
+    display: block;
+}
+.image{
+    width: 300px;
+    height: 480px;
+    border-radius: 30%;
 }
