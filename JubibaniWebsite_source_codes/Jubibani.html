@@ -10,33 +10,58 @@
         <h1>Well, hello there!</h1>
     </div>
     <nav>
-        <a href="#home_id" class="btn">Home</a>
-        <a href="#projects_id" class="btn">Projects</a>
-        <a href="#contact_id" class="btn">Contact</a>
-        <a href="#section4" class="btn">section4</a>
+        <nav class="nav_tab">
+            <a href="#home_id" class="btn">Home</a>
+            <a href="#projects_id" class="btn">Projects</a>
+            <a href="#contact_id" class="btn">Contact</a>
+            <a href="#Documentation_id" class="btn">Documentation</a> 
+        </nav>
         <section class = "my_description" id="home_id">
-            <div class = "wrapper">            
-                <p class = "hello">
-                Hi, I am Christopher Jiovanni  A. Orpilla a.k.a <strong>Jubibani</strong>
-                I'm a web developer and graphic designer by career and a game
-                developer by hobby from the Philippines.
-                </p>     
-                <br>   
-                <p class = "bio"><i>I like to Build Things and Fix things.</i></p> 
+            <div class = "wrapper">
+                <div class="text_box">   
+                    <img class="image" src="my_pic.jpg" alt="a picture of the developer">        
+                    <p class = "hello">
+                    <h1 class ="Jubibani">"Jubibani"</h1>
+                        Hello! I am <i>Christopher Jiovanni Alambra Orpilla</i>, Jubibani for short. I am a web developer and graphic a designer by career and a game
+                        developer by hobby from the Philippines.
+                    </p>     
+                    <br>   
+                    <p class = "bio"><i>I like to Build things and Fix things.</i></p>
+                    <br>   
+                    <p class = "my_story">
+                        but before that. 
+                        <!-- I'd like to hide this. then show after clicked -->
+                        <a href="story.html" target="_blank"> 
+                            &nbsp;i was
+                        </a>
+                    </p>
+                </div>  
             </div>
         </section> 
-        <img class = "image" src="me_cropped.jpg">
     </nav>
     </div>
     </div>
         <section class = "Projects"  id="projects_id">
-            <h1>my craft(s)</h1>
+            <div class = "wrapper">
+                <h1>my craft(s)</h1>
+                <div class="project_box">   
+                    <div class="web_development">
+                        <a href ="#web">
+                            <p>web_development</p>
+                        </a>
+                    </div>
+                    <div class="game_development">
+                        <a href ="#game">
+                            <p>game_development</p>
+                        </a>
+                    </div>
+                </div>  
         </section>
         <section class = "Contact"  id="contact_id">
             <h1>contact me</h1>
         </section>
-        <section class = "four"  id="section4">
-            <h1>fourth section</h1>
+        <section class = "Documentation" id="Documentation_id">
+            <h1>Documentation</h1>
         </section>
     </body>
 </html>            

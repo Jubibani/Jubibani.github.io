@@ -1,3 +1,4 @@
+ /* Global selectors */
  *{
     margin: 0;
     padding: 0;
@@ -5,10 +6,15 @@
     justify-content: center;
     text-align: center;
     font-family:sans-serif;
+    size: 20px;
     color: white;
     background-color: rgb(21, 21, 26);
 }
- 
+* p{
+    display: block;
+    
+}
+/* normal selectors */
 body{
     border: 1px solid black;
 }
@@ -19,24 +25,52 @@ section{
     text-align: center;
     border: 1PX solid BLACK;
 }
-.nav{
-    align-self: center;
-    justify-content: center;
-}
-p{
-    padding-top: 10px;
-}
-
 div{
     display: block;
     width: 40%;
     justify-content: space-between;
 }
+nav{
+    align-self: center;
+    justify-content: center;
+}
+/* selectors */
+.nav_tab{
+    background-color: black;
+}
+.wrapper{
+    display: block;
+    width: 40%;
+    justify-content: space-between;
+}
+p.bio{
+    padding-top: 10px;
+}
+p.hello{
+    margin-top: 50px;
+}
+.text_box > .Jubibani{
+    font-size: 3rem;
+    padding-bottom: 50px;;
+}
+div.text_box{
+    display: contents;
+    width: 40%;
+    justify-content: space-between;
+}
+div.project_box{
+    display: grid;
+    width: 40%;
+    justify-content: space-evenly;
+    align-content: stretch;
+    align-items: stretch;
+}
 section > .my_description{
     display: block;
 }
 .image{
-    width: 300px;
-    height: 480px;
-    border-radius: 30%;
+    margin-top: 70px;
+    width: 70%;
+    height: 55%;
+    border-radius: 45%;
 }
