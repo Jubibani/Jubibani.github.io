@@ -1,0 +1,21 @@
+
+.my_description{
+    text-align: center;
+}   
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    border: 1px solid black;
+}
+section{
+    height:100vh ;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+nav{
+    float:
+}
