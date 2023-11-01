@@ -41,6 +41,23 @@ figcaption{
 .Gold{
     color: gold;
 }
+.Red{
+    color: red;
+}
+.Purple{
+    color: purple;
+}
 .Attempt{
     margin-left: -85rem;
+}
+/*button*/
+.go_back{
+    margin-left: -85rem;
+    background-color: rgb(23, 21, 34);
+    color: gold;
+    size: 1.5rem;
+    border-radius: 10%;
+    height: 2.5rem;
+    width: 4.5rem;
+    font-weight: 600;
 }
