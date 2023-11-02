@@ -74,3 +74,10 @@ section > .my_description{
     height: 55%;
     border-radius: 45%;
 }
+
+.github_logo, .linkedin_logo{
+    margin: 1% 5%;
+    width: 11.5%;
+    height: 10%;
+    border-radius: 50%;
+}
