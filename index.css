@@ -5,7 +5,8 @@
     box-sizing: border-box;
     justify-content: center;
     text-align: center;
-    font-family:sans-serif;
+    font-family: "CustomFont";
+    src: url(Fonts/built\ titling\ bd.ttf);
     size: 20px;
     color: gray;
     background-color: black;
@@ -158,6 +159,7 @@ table{
     background-color: blueviolet;
     border-color: blueviolet;
     color: white;
+    margin-top: 60px;
     padding: 5px 10px 5px;
     width: 40%;
     height: 5%;
@@ -481,9 +483,24 @@ table{
         padding: 10px 10px;
         justify-content: space-evenly;
         color: transparent;
+    }.Name, .Name_label, .email, .Email_label, .number, .Number_label{
+        font-size: larger;
+        background-color: transparent;
+        margin: 10% 10%;
+        margin-left: 0px;
     }
-    .Name, .email, .number, .input_box{
-        color: transparent;
+    input{
+        height: 30px;
+        border-radius: 8px;
+        background-color: rgb(146, 144, 144);
+        width: 250px;
+    }
+    ::placeholder{
+        color: black;
+    }
+    .input_box{
+        height: 95%;
+        background-color: transparent;
     }
     .image{
         margin-top: 30px;
@@ -610,6 +627,9 @@ table{
         border-style: solid;
         border-radius: 16px;
         border-color: transparent;
+        background-image: url(https://wallpaperaccess.com/full/9326678.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
         background-color: rgb(31, 31, 31);
     }
     .box{
@@ -690,8 +710,25 @@ table{
         justify-content: space-evenly;
         color: transparent;
     }
-    .Name, .email, .number, .input_box{
-        color: transparent;
+    .Name, .Name_label, .email, .Email_label, .number, .Number_label{
+        font-family: "CustomFont";
+        src: url(Fonts/built\ titling\ bd\ it.ttf);
+        background-color: transparent;
+        margin: 10% 10%;
+        margin-left: 0px;
+    }
+    input{
+        height: 30px;
+        border-radius: 8px;
+        background-color: rgb(146, 144, 144);
+        width: 250px;
+    }
+    ::placeholder{
+        color: black;
+    }
+    .input_box{
+        height: 95%;
+        background-color: transparent;
     }
     .image{
         margin-top: 30px;
