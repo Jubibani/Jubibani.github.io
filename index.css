@@ -256,6 +256,21 @@ table{
     .was{
         text-decoration: none; /*disable line*/
     }
+    .project_box{
+        display: block;
+        margin-left: 10px;
+        margin-right: 10px;
+        justify-content: space-between;
+        width: 95%;
+        height: 85%;
+        border-style: solid;
+        border-radius: 16px;
+        border-color: transparent;
+        background-image: url(https://wallpaperaccess.com/full/9326678.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: rgb(31, 31, 31);
+    }
     .text_box > .Jubibani{
         font-size: 3rem;
         padding-top: 30px;
@@ -404,6 +419,9 @@ table{
         border-style: solid;
         border-radius: 16px;
         border-color: transparent;
+        background-image: url(https://wallpaperaccess.com/full/9326678.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
         background-color: rgb(31, 31, 31);
     }
     .box{
