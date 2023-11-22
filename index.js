@@ -1,5 +1,5 @@
 function hello(){
     window.alert(
-        "The Images are actually Clickable"
+        "You Look lonely, I Can Fix That."
         )
 }

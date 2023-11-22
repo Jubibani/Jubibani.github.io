@@ -159,7 +159,7 @@ table{
     background-color: blueviolet;
     border-color: blueviolet;
     color: white;
-    margin-top: 60px;
+    margin-top: c0px;
     padding: 5px 10px 5px;
     width: 40%;
     height: 5%;
@@ -543,6 +543,11 @@ table{
         background-color: gray;
         border: none;
     }
+    h3{
+        margin: 15px 10px;
+        background-color: transparent;
+        color: white;
+    }
     header{
         padding-top: 10px;
         padding-bottom: 10px;
@@ -577,6 +582,53 @@ table{
         margin: 0px 5px 5px;
         font-size: 16px;
     }
+    /*buttons*/
+    .jav_button{
+        border-radius: 15px;
+        border-width: 1px;
+        background-color: blueviolet;
+        border-color: blueviolet;
+        color: white;
+        margin-top: 0px;
+        padding: 5px 10px 5px;
+        width: 40%;
+        height: 5%;
+        font-weight: bolder;
+    } 
+    .jav_button:active {
+        background-color: green;
+        animation: 2s;
+        color: white;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+    }
+    .enter_btn, .reset_btn{
+        margin-top: 65px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .enter_btn{
+        border-radius: 15px;
+        border-width: 1px;
+        background-color: blueviolet;
+        border-color: blueviolet;
+        color: white;
+        padding: 5px 10px 5px;
+        width: 40%;
+        height: 5%;
+        font-weight: bolder;
+    } 
+    .reset_btn{
+        border-radius: 15px;
+        border-width: 1px;
+        background-color: blueviolet;
+        border-color: blueviolet;
+        color: white;
+        padding: 5px 10px 5px;
+        width: 30%;
+        height: 5%;
+        font-weight: bolder;
+    } 
     .about{
         width: 50%;
         height: 90%;
@@ -607,6 +659,11 @@ table{
         display: block;
         width: 99%;
         justify-content: space-between;
+    }
+    .contact_wrapper{
+        background-image: url(pictures/cyberpunk-blad.jpg);
+        background-repeat: no-repeat;
+        background-size: auto;
     }
     .greeting{
         background-color: black;
@@ -681,7 +738,7 @@ table{
         margin-top: 30px;
         margin-bottom: 20px;
         width: 70%;
-        height: 20%;
+        height: 25%;
         border-radius: 14px;
         border-style: solid;
         border-width: 1px;
@@ -691,7 +748,7 @@ table{
         margin-top: 30px;
         margin-bottom: 20px;
         width: 70%;
-        height: 20%;
+        height: 25%;
         border-radius: 14px;
         border-style: solid;
         border-width: 1px;
@@ -699,9 +756,9 @@ table{
     }
     .game_development{
         margin-top: 30px;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
         width: 70%;
-        height: 20%;
+        height: 25%;
         border-radius: 14px;
         border-style: solid;
         border-width: 1px;
@@ -720,7 +777,7 @@ table{
         border-style: solid;
         border-radius: 16px;
         border-color: transparent;
-        background-color: rgb(31, 31, 31);
+        background-color: transparent;
     }
     form{
         display: contents;
@@ -745,8 +802,12 @@ table{
         color: black;
     }
     .input_box{
-        height: 95%;
-        background-color: transparent;
+        height: 50%;
+        background-color:black;
+        opacity: 85%;
+        border-radius: 20px;
+        margin-top: 50px;
+        padding-top: 0.5px;
     }
     .image{
         margin-top: 30px;
@@ -760,5 +821,21 @@ table{
         width: 11.5%;
         height: 10%;
         border-radius: 50%;
+    }
+    .socials{
+        background-color: transparent;
+    }
+    a{
+        text-decoration: none;
+    }
+    .social_links{
+        margin: 1% 5%;
+        width: 11.5%;
+        height: 10%;
+        border-radius: 50%;
+        background-color: transparent;
+        border-style: solid;
+        border-width: 1px;
+        border-color: black;
     }
 }
